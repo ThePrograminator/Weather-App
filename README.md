@@ -10,7 +10,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ThePrograminator/Weather-App/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/ThePrograminator/Weather-App/blob/master/images/screenshot.PNG" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Weather App</h3>
