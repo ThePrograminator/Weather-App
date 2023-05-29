@@ -1,70 +1,159 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT SHIELDS -->
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
-## Available Scripts
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/ThePrograminator/Weather-App/">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-In the project directory, you can run:
+  <h3 align="center">Weather App</h3>
 
-### `npm start`
+  <p align="center">
+    A weather app created with React for easy weather data for your local city!
+  </p>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `npm test`
+[![Product Name Screen Shot][product-screenshot]](https://github.com/ThePrograminator/Weather-App/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A simple create-react-app to get weather data for any city with above 1000 citizens.
 
-### `npm run build`
+Features:
+* Search for a city name, and instantly be presented with: The Weather, temperature, windspeed and humidity.
+* See the weather for some of Europe's biggest cities.
+* The website is both desktop and mobile friendly.
+* The color scheme is based on a summer theme, to really get you into the summer vibe.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* [![React][React.js]][React-url]
+* [![Javascript][Javascript]][Javascript-url]
+* [![HTML][HTML]][HTML-url]
+* [![CSS][CSS]][CSS-url]
+* [![StyledComponents][StyledComponents]][StyledComponents-url]
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+<!-- GETTING STARTED -->
+## Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To get a local copy up and running follow these simple steps.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
 
-### Code Splitting
+Inorder to run this Weather APP, you need to have installed Node.js Version 14.17.1 or above. Click here to download: [https://nodejs.org/en/download](https://nodejs.org/en/download)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If you already have Node.js installed, then you can see your current version by running this command
+* node
+  ```sh
+  node -v
+  ```
 
-### Analyzing the Bundle Size
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Clone the repo
+   ```sh
+   git clone https://github.com/ThePrograminator/Weather-App.git
+   ```
+   or
+   Download and extract the zip file from github
 
-### Making a Progressive Web App
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run the application
+   ```sh
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Advanced Configuration
+<!-- LICENSE -->
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-### Deployment
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
 
-### `npm run build` fails to minify
+* [React Icons](https://react-icons.github.io/react-icons/search)
+* [React Router](https://reactrouter.com/en/main)
+* [City Data](https://github.com/finnlp/cities-list) - Converted json object into an array for this project
+* [Open Weather Map API](https://openweathermap.org/api) - Weather Data
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]:https://github.com/ThePrograminator/Weather-App/network/members
+
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/ThePrograminator/Weather-App/stargazers
+
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/ThePrograminator/Weather-App/issues
+
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/ThePrograminator/Weather-App/blob/master/LICENSE.txt
+
+[product-screenshot]: images/screenshot.png
+
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+
+[Javascript]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[Javascript-url]: https://en.wikipedia.org/wiki/JavaScript/
+
+[HTML]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[HTML-url]: https://en.wikipedia.org/wiki/HTML5/
+
+[CSS]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[CSS-url]: https://en.wikipedia.org/wiki/CSS/
+
+[StyledComponents]: https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white
+[StyledComponents-url]: https://styled-components.com/
+
