@@ -10,7 +10,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ThePrograminator/Weather-App/">
-    <img src="https://github.com/ThePrograminator/Weather-App/blob/master/images/screenshot.PNG" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Weather App</h3>
@@ -140,7 +140,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [license-shield]: https://img.shields.io/github/license/ThePrograminator/Weather-App.svg?style=for-the-badge
 [license-url]: https://github.com/ThePrograminator/Weather-App/blob/master/LICENSE.txt
 
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://github.com/ThePrograminator/Weather-App/blob/master/images/screenshot.PNG?raw=true
 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
